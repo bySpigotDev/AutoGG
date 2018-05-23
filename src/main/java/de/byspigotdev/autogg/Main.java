@@ -36,8 +36,10 @@ public class Main extends LabyModAddon {
             @Override
             public boolean onReceive(String s, String s1) {
                 for (String all : endmessages){
-                    if (s.contains(all)){
-                        Minecraft.getMinecraft().thePlayer.sendChatMessage(ggmessage);
+                    if (enabled){
+                        if (s.contains(all)){
+                            Minecraft.getMinecraft().thePlayer.sendChatMessage(ggmessage);
+                        }
                     }
                 }
                 return false;
