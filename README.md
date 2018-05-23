@@ -1,0 +1,2 @@
+# AutoGG
+AutoGG LabyMod Addon
