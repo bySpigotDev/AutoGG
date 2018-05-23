@@ -1,0 +1,127 @@
+Symbol range map extraction starting
+Processing 1 files
+processing de\byspigotdev\autogg\Main.java
+@|de\byspigotdev\autogg\Main.java|8|29|de.byspigotdev.autogg|package|de.byspigotdev.autogg|(file)
+Class Start: de.byspigotdev.autogg.Main
+   @|de\byspigotdev\autogg\Main.java|725|732|enabled|field|de.byspigotdev.autogg.Main|enabled|
+   @|de\byspigotdev\autogg\Main.java|746|752|String|class|java.lang.String
+   @|de\byspigotdev\autogg\Main.java|753|762|ggmessage|field|de.byspigotdev.autogg.Main|ggmessage|
+   @|de\byspigotdev\autogg\Main.java|786|792|String|class|java.lang.String
+   @|de\byspigotdev\autogg\Main.java|776|785|ArrayList|class|java.util.ArrayList
+   @|de\byspigotdev\autogg\Main.java|794|805|endmessages|field|de.byspigotdev.autogg.Main|endmessages|
+   @|de\byspigotdev\autogg\Main.java|812|821|ArrayList|class|java.util.ArrayList
+   @|de\byspigotdev\autogg\Main.java|822|828|String|class|java.lang.String
+   Method Start: onEnable()V
+      @|de\byspigotdev\autogg\Main.java|864|872|onEnable|method|net.labymod.api.LabyModAddon|onEnable|()V
+      @|de\byspigotdev\autogg\Main.java|885|905|initalizeEndMessages|method|de.byspigotdev.autogg.Main|initalizeEndMessages|()V
+      @|de\byspigotdev\autogg\Main.java|922|928|getApi|method|net.labymod.api.LabyModAddon|getApi|()Lnet/labymod/api/LabyModAPI;
+      @|de\byspigotdev\autogg\Main.java|931|946|getEventManager|method|net.labymod.api.LabyModAPI|getEventManager|()Lnet/labymod/api/EventManager;
+      @|de\byspigotdev\autogg\Main.java|949|957|register|method|net.labymod.api.EventManager|register|(Lnet/labymod/api/events/MessageReceiveEvent;)V
+      @|de\byspigotdev\autogg\Main.java|962|981|MessageReceiveEvent|class|net.labymod.api.events.MessageReceiveEvent
+      Anon Class Start: de.byspigotdev.autogg.Main$1
+         Method Start: onReceive(Ljava/lang/String;Ljava/lang/String;)Z
+            @|de\byspigotdev\autogg\Main.java|1035|1044|onReceive|method|net.labymod.api.events.MessageReceiveEvent|onReceive|(Ljava/lang/String;Ljava/lang/String;)Z
+            @|de\byspigotdev\autogg\Main.java|1045|1051|String|class|java.lang.String
+            @|de\byspigotdev\autogg\Main.java|1052|1053|s|param|de.byspigotdev.autogg.Main$1|onReceive|(Ljava/lang/String;Ljava/lang/String;)Z|s|0
+            @|de\byspigotdev\autogg\Main.java|1055|1061|String|class|java.lang.String
+            @|de\byspigotdev\autogg\Main.java|1062|1064|s1|param|de.byspigotdev.autogg.Main$1|onReceive|(Ljava/lang/String;Ljava/lang/String;)Z|s1|1
+            @|de\byspigotdev\autogg\Main.java|1089|1095|String|class|java.lang.String
+            @|de\byspigotdev\autogg\Main.java|1102|1113|endmessages|field|de.byspigotdev.autogg.Main|endmessages
+            @|de\byspigotdev\autogg\Main.java|1140|1141|s|param|de.byspigotdev.autogg.Main$1|onReceive|(Ljava/lang/String;Ljava/lang/String;)Z|s|0
+            @|de\byspigotdev\autogg\Main.java|1142|1150|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+            @|de\byspigotdev\autogg\Main.java|1182|1191|Minecraft|class|net.minecraft.client.Minecraft
+            @|de\byspigotdev\autogg\Main.java|1192|1204|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+            @|de\byspigotdev\autogg\Main.java|1207|1216|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+            @|de\byspigotdev\autogg\Main.java|1217|1232|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+            @|de\byspigotdev\autogg\Main.java|1233|1242|ggmessage|field|de.byspigotdev.autogg.Main|ggmessage
+         Method End: onReceive(Ljava/lang/String;Ljava/lang/String;)Z
+      Anon Class End: de.byspigotdev.autogg.Main$1
+   Method End: onEnable()V
+   Method Start: initalizeEndMessages()V
+      @|de\byspigotdev\autogg\Main.java|1365|1385|initalizeEndMessages|method|de.byspigotdev.autogg.Main|initalizeEndMessages|()V
+      @|de\byspigotdev\autogg\Main.java|1397|1408|endmessages|field|de.byspigotdev.autogg.Main|endmessages
+      @|de\byspigotdev\autogg\Main.java|1409|1412|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|de\byspigotdev\autogg\Main.java|1441|1452|endmessages|field|de.byspigotdev.autogg.Main|endmessages
+      @|de\byspigotdev\autogg\Main.java|1453|1456|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|de\byspigotdev\autogg\Main.java|1495|1506|endmessages|field|de.byspigotdev.autogg.Main|endmessages
+      @|de\byspigotdev\autogg\Main.java|1507|1510|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|de\byspigotdev\autogg\Main.java|1546|1557|endmessages|field|de.byspigotdev.autogg.Main|endmessages
+      @|de\byspigotdev\autogg\Main.java|1558|1561|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: initalizeEndMessages()V
+   Method Start: onDisable()V
+      @|de\byspigotdev\autogg\Main.java|1627|1636|onDisable|method|net.labymod.api.LabyModAddon|onDisable|()V
+   Method End: onDisable()V
+   Method Start: loadConfig()V
+      @|de\byspigotdev\autogg\Main.java|1679|1689|loadConfig|method|net.labymod.api.LabyModAddon|loadConfig|()V
+      @|de\byspigotdev\autogg\Main.java|1707|1714|enabled|field|de.byspigotdev.autogg.Main|enabled
+      @|de\byspigotdev\autogg\Main.java|1717|1726|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|de\byspigotdev\autogg\Main.java|1729|1732|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+      @|de\byspigotdev\autogg\Main.java|1746|1755|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|de\byspigotdev\autogg\Main.java|1758|1761|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|de\byspigotdev\autogg\Main.java|1773|1785|getAsBoolean|method|com.google.gson.JsonElement|getAsBoolean|()Z
+      @|de\byspigotdev\autogg\Main.java|1809|1818|ggmessage|field|de.byspigotdev.autogg.Main|ggmessage
+      @|de\byspigotdev\autogg\Main.java|1821|1830|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|de\byspigotdev\autogg\Main.java|1833|1836|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+      @|de\byspigotdev\autogg\Main.java|1850|1859|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|de\byspigotdev\autogg\Main.java|1862|1865|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|de\byspigotdev\autogg\Main.java|1877|1888|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+   Method End: loadConfig()V
+   Method Start: fillSettings(Ljava/util/List;)V
+      @|de\byspigotdev\autogg\Main.java|1939|1951|fillSettings|method|net.labymod.api.LabyModAddon|fillSettings|(Ljava/util/List;)V
+      @|de\byspigotdev\autogg\Main.java|1957|1972|SettingsElement|class|net.labymod.settings.elements.SettingsElement
+      @|de\byspigotdev\autogg\Main.java|1952|1956|List|class|java.util.List
+      @|de\byspigotdev\autogg\Main.java|1974|1978|list|param|de.byspigotdev.autogg.Main|fillSettings|(Ljava/util/List;)V|list|0
+      @|de\byspigotdev\autogg\Main.java|1990|1994|list|param|de.byspigotdev.autogg.Main|fillSettings|(Ljava/util/List;)V|list|0
+      @|de\byspigotdev\autogg\Main.java|1995|1998|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|de\byspigotdev\autogg\Main.java|2004|2018|BooleanElement|class|net.labymod.settings.elements.BooleanElement
+      @|de\byspigotdev\autogg\Main.java|2035|2058|ControlElement.IconData|class|net.labymod.settings.elements.ControlElement.IconData
+      @|de\byspigotdev\autogg\Main.java|2059|2067|Material|class|net.labymod.utils.Material
+      @|de\byspigotdev\autogg\Main.java|2068|2073|LEVER|field|net.labymod.utils.Material|LEVER
+      @|de\byspigotdev\autogg\Main.java|2080|2088|Consumer|class|net.labymod.utils.Consumer
+      @|de\byspigotdev\autogg\Main.java|2089|2096|Boolean|class|java.lang.Boolean
+      Anon Class Start: de.byspigotdev.autogg.Main$2
+         Method Start: accept(Ljava/lang/Boolean;)V
+            @|de\byspigotdev\autogg\Main.java|2148|2154|accept|method|net.labymod.utils.Consumer|accept|(Ljava/lang/Object;)V
+            @|de\byspigotdev\autogg\Main.java|2155|2162|Boolean|class|java.lang.Boolean
+            @|de\byspigotdev\autogg\Main.java|2163|2171|accepted|param|de.byspigotdev.autogg.Main$2|accept|(Ljava/lang/Boolean;)V|accepted|0
+            @|de\byspigotdev\autogg\Main.java|2191|2198|enabled|field|de.byspigotdev.autogg.Main|enabled
+            @|de\byspigotdev\autogg\Main.java|2201|2209|accepted|param|de.byspigotdev.autogg.Main$2|accept|(Ljava/lang/Boolean;)V|accepted|0
+            @|de\byspigotdev\autogg\Main.java|2227|2236|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+            @|de\byspigotdev\autogg\Main.java|2239|2250|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/Boolean;)V
+            @|de\byspigotdev\autogg\Main.java|2262|2270|accepted|param|de.byspigotdev.autogg.Main$2|accept|(Ljava/lang/Boolean;)V|accepted|0
+         Method End: accept(Ljava/lang/Boolean;)V
+      Anon Class End: de.byspigotdev.autogg.Main$2
+      @|de\byspigotdev\autogg\Main.java|2314|2327|StringElement|class|net.labymod.settings.elements.StringElement
+      @|de\byspigotdev\autogg\Main.java|2342|2355|StringElement|class|net.labymod.settings.elements.StringElement
+      @|de\byspigotdev\autogg\Main.java|2371|2394|ControlElement.IconData|class|net.labymod.settings.elements.ControlElement.IconData
+      @|de\byspigotdev\autogg\Main.java|2395|2403|Material|class|net.labymod.utils.Material
+      @|de\byspigotdev\autogg\Main.java|2404|2409|PAPER|field|net.labymod.utils.Material|PAPER
+      @|de\byspigotdev\autogg\Main.java|2438|2446|Consumer|class|net.labymod.utils.Consumer
+      @|de\byspigotdev\autogg\Main.java|2447|2453|String|class|java.lang.String
+      Anon Class Start: de.byspigotdev.autogg.Main$3
+         Method Start: accept(Ljava/lang/String;)V
+            @|de\byspigotdev\autogg\Main.java|2505|2511|accept|method|net.labymod.utils.Consumer|accept|(Ljava/lang/Object;)V
+            @|de\byspigotdev\autogg\Main.java|2512|2518|String|class|java.lang.String
+            @|de\byspigotdev\autogg\Main.java|2519|2527|accepted|param|de.byspigotdev.autogg.Main$3|accept|(Ljava/lang/String;)V|accepted|0
+            @|de\byspigotdev\autogg\Main.java|2547|2556|ggmessage|field|de.byspigotdev.autogg.Main|ggmessage
+            @|de\byspigotdev\autogg\Main.java|2559|2567|accepted|param|de.byspigotdev.autogg.Main$3|accept|(Ljava/lang/String;)V|accepted|0
+            @|de\byspigotdev\autogg\Main.java|2585|2594|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+            @|de\byspigotdev\autogg\Main.java|2597|2608|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/String;)V
+            @|de\byspigotdev\autogg\Main.java|2620|2628|accepted|param|de.byspigotdev.autogg.Main$3|accept|(Ljava/lang/String;)V|accepted|0
+         Method End: accept(Ljava/lang/String;)V
+      Anon Class End: de.byspigotdev.autogg.Main$3
+      @|de\byspigotdev\autogg\Main.java|2665|2669|list|param|de.byspigotdev.autogg.Main|fillSettings|(Ljava/util/List;)V|list|0
+      @|de\byspigotdev\autogg\Main.java|2670|2673|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: fillSettings(Ljava/util/List;)V
+   Method Start: isEnabled()Z
+      @|de\byspigotdev\autogg\Main.java|2710|2719|isEnabled|method|de.byspigotdev.autogg.Main|isEnabled|()Z
+      @|de\byspigotdev\autogg\Main.java|2739|2746|enabled|field|de.byspigotdev.autogg.Main|enabled
+   Method End: isEnabled()Z
+   Method Start: getGGMessage()Ljava/lang/String;
+      @|de\byspigotdev\autogg\Main.java|2773|2785|getGGMessage|method|de.byspigotdev.autogg.Main|getGGMessage|()Ljava/lang/String;
+      @|de\byspigotdev\autogg\Main.java|2766|2772|String|class|java.lang.String
+      @|de\byspigotdev\autogg\Main.java|2805|2814|ggmessage|field|de.byspigotdev.autogg.Main|ggmessage
+   Method End: getGGMessage()Ljava/lang/String;
+Class End  : de.byspigotdev.autogg.Main
+endProcessing de\byspigotdev\autogg\Main.java
+
